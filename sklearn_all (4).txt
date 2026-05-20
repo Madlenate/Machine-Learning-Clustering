@@ -1,0 +1,220 @@
+
+--SKLEARN COMPARISON FOR: iris.csv--
+
+Algorithm: sklearn KMeans
+Parameters: k = 3
+
+--Overall Cluster Report--
+# of data points: 150
+Cluster labels found: [0, 1, 2]
+Overall Silhouette Score: 0.5525919445499757
+Rand Index: 0.8797315436241611
+
+--Cluster Sizes--
+Cluster 0: 62
+Cluster 1: 50
+Cluster 2: 38
+
+Algorithm: sklearn DBSCAN
+Parameters: eps = 0.7, min_samples = 4
+
+--Overall Cluster Report--
+# of data points: 150
+Cluster labels found: [-1, 0, 1]
+# of outliers: 3
+Percent outliers: 2.00%
+Overall Silhouette Score: 0.5016061910978403
+Rand Index: 0.7770917225950783
+
+--Cluster Sizes--
+Noise / Outliers: 3
+Cluster 0: 50
+Cluster 1: 97
+
+Algorithm: sklearn AgglomerativeClustering
+Parameters: distance_threshold = 1.5, linkage = single
+
+--Overall Cluster Report--
+# of data points: 150
+Cluster labels found: [0, 1]
+Overall Silhouette Score: 0.6863930543445408
+Rand Index: 0.7762863534675615
+
+--Cluster Sizes--
+Cluster 0: 100
+Cluster 1: 50
+
+--SKLEARN COMPARISON FOR: 4clusters.csv--
+
+Algorithm: sklearn KMeans
+Parameters: k = 4
+
+--Overall Cluster Report--
+# of data points: 39
+Cluster labels found: [0, 1, 2, 3]
+Overall Silhouette Score: 0.5851567268542073
+
+--Cluster Sizes--
+Cluster 0: 7
+Cluster 1: 12
+Cluster 2: 9
+Cluster 3: 11
+
+Algorithm: sklearn DBSCAN
+Parameters: eps = 5.0, min_samples = 4
+
+--Overall Cluster Report--
+# of data points: 39
+Cluster labels found: [-1, 0, 1, 2, 3]
+# of outliers: 6
+Percent outliers: 15.38%
+Overall Silhouette Score: 0.5432811871184686
+
+--Cluster Sizes--
+Noise / Outliers: 6
+Cluster 0: 9
+Cluster 1: 10
+Cluster 2: 7
+Cluster 3: 7
+
+Algorithm: sklearn AgglomerativeClustering
+Parameters: distance_threshold = 10.0, linkage = single
+
+--Overall Cluster Report--
+# of data points: 39
+Cluster labels found: [0, 1, 2]
+Overall Silhouette Score: 0.671012873201495
+
+--Cluster Sizes--
+Cluster 0: 18
+Cluster 1: 12
+Cluster 2: 9
+
+--SKLEARN COMPARISON FOR: mammal_milk.csv--
+
+Algorithm: sklearn KMeans
+Parameters: k = 2
+
+--Overall Cluster Report--
+# of data points: 25
+Cluster labels found: [0, 1]
+Overall Silhouette Score: 0.6250735975612236
+
+--Cluster Sizes--
+Cluster 0: 17
+Cluster 1: 8
+
+Algorithm: sklearn DBSCAN
+Parameters: eps = 5.0, min_samples = 3
+
+--Overall Cluster Report--
+# of data points: 25
+Cluster labels found: [-1, 0, 1, 2, 3]
+# of outliers: 3
+Percent outliers: 12.00%
+Overall Silhouette Score: 0.5515766737379934
+
+--Cluster Sizes--
+Noise / Outliers: 3
+Cluster 0: 10
+Cluster 1: 6
+Cluster 2: 3
+Cluster 3: 3
+
+Algorithm: sklearn AgglomerativeClustering
+Parameters: distance_threshold = 10.0, linkage = single
+
+--Overall Cluster Report--
+# of data points: 25
+Cluster labels found: [0, 1]
+Overall Silhouette Score: 0.6887749745972757
+
+--Cluster Sizes--
+Cluster 0: 23
+Cluster 1: 2
+
+--SKLEARN COMPARISON FOR: planets.csv--
+
+Algorithm: sklearn KMeans
+Parameters: k = 2
+
+--Overall Cluster Report--
+# of data points: 19
+Cluster labels found: [0, 1]
+Overall Silhouette Score: 0.792289770574844
+
+--Cluster Sizes--
+Cluster 0: 17
+Cluster 1: 2
+
+Algorithm: sklearn DBSCAN
+Parameters: eps = 10.0, min_samples = 3
+
+--Overall Cluster Report--
+# of data points: 19
+Cluster labels found: [-1, 0, 1]
+# of outliers: 8
+Percent outliers: 42.11%
+Overall Silhouette Score: 0.2624859232772388
+
+--Cluster Sizes--
+Noise / Outliers: 8
+Cluster 0: 4
+Cluster 1: 7
+
+Algorithm: sklearn AgglomerativeClustering
+Parameters: distance_threshold = 100.0, linkage = single
+
+--Overall Cluster Report--
+# of data points: 19
+Cluster labels found: [0, 1]
+Overall Silhouette Score: 0.792289770574844
+
+--Cluster Sizes--
+Cluster 0: 17
+Cluster 1: 2
+
+--SKLEARN COMPARISON FOR: AccidentsSet03.csv--
+
+Algorithm: sklearn KMeans
+Parameters: k = 3
+
+--Overall Cluster Report--
+# of data points: 62
+Cluster labels found: [0, 1, 2]
+Overall Silhouette Score: 0.4458351535148179
+
+--Cluster Sizes--
+Cluster 0: 25
+Cluster 1: 12
+Cluster 2: 25
+
+Algorithm: sklearn DBSCAN
+Parameters: eps = 1.0, min_samples = 3
+
+--Overall Cluster Report--
+# of data points: 62
+Cluster labels found: [-1, 0, 1, 2]
+# of outliers: 4
+Percent outliers: 6.45%
+Overall Silhouette Score: 0.4308087949635145
+
+--Cluster Sizes--
+Noise / Outliers: 4
+Cluster 0: 27
+Cluster 1: 9
+Cluster 2: 22
+
+Algorithm: sklearn AgglomerativeClustering
+Parameters: distance_threshold = 2.0, linkage = single
+
+--Overall Cluster Report--
+# of data points: 62
+Cluster labels found: [0, 1, 2, 3]
+Overall Silhouette Score: 0.36773261994938333
+
+--Cluster Sizes--
+Cluster 0: 33
+Cluster 1: 27
+Cluster 2: 1
+Cluster 3: 1
